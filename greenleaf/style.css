@@ -1,0 +1,78 @@
+body {margin:0;padding:0;text-align:left;background:#333;color:#fff;font:12px Verdana,Arial,Helvetica,sans-serif}
+h1,h2,h3 {padding:4px 0 2px;margin:4px 0 2px}
+h1 {font-size:1.75em;border-bottom:1px dotted #090}
+h2 {font-size:1.5em;border-bottom:1px dotted #090}
+h3 {font-size:1.25em;border-bottom:1px dotted #090}
+ul {margin:0;padding-left:12px;list-style:square;color:#090}
+li {margin:2px 0 2px 10px}
+#wrapper {border:2px solid #090}
+#lborder {width:14px;background:url(images/lborder.jpg) repeat-y}
+#navbar,#footer {background:inherit;color:#090;padding:5px;background-image:url(images/hfbak.jpg);background-repeat:repeat-x;background-position:top center}
+td#navbar {height:25px}
+#navlinks {text-align:left;float:left;width:75%;line-height:150%}
+#topsearch {text-align:right;width:25%;float:right;margin:0;padding:0}
+#header {background:url(images/headbak.jpg) repeat-x}
+#logo,#hdeco {border-bottom:1px solid #999;border-top:1px solid #999;height:150px}
+#hdeco {background:url(images/headr.jpg) no-repeat bottom right}
+#logo {text-align:left}
+#hdeco {text-align:center}
+#main {border-left:2px solid #090;border-right:2px solid #090;background:#000}
+#lcol {width:200px}
+#rcol {width:200px}
+#lcol,#ccol,#rcol {padding:5px;background:#333 url(images/cback.jpg) no-repeat bottom right}
+/* Uncomment the following line if you want the background of each column to swap on hover
+#lcol:hover,#ccol:hover,#rcol:hover {padding:5px;background:#5C5C5C url(images/cbackhover.jpg) no-repeat bottom right}*/
+#footer {text-align:center;border-top:1px solid #999;color:#999;background:inherit}
+#rborder {width:14px;background:url(images/rborder.jpg) repeat-y}
+table, tbody {width:100%;font-size:1em}
+table td {margin:0;padding:0;border-width:0}
+.item {border:1px solid #777}
+.itemHead {padding:3px;color:#FFF;background:#555}
+.itemInfo {text-align:right;padding:3px;background:#555}
+.itemTitle a {font-size:130%;font-weight:bold;font-variant:small-caps;color:#fff;background:transparent}
+.itemPoster {font-size:90%;font-style:italic}
+.itemPostDate {font-size:90%;font-style:italic}
+.itemStats {font-size:90%;font-style:italic}
+.itemBody {padding-left:5px}
+.itemText {margin-top:5px;margin-bottom:5px;line-height:1.5em}
+.itemText:first-letter {font-size:133%;font-weight:bold}
+.itemFoot {text-align:right;padding:3px;background:#555}
+.itemAdminLink {font-size:90%}
+.itemPermaLink {font-size:90%}
+th {color:#FFF;padding:2px;background:#555}
+td#mainmenu a {display:block;margin:1px;padding:4px;background:#555}
+td#mainmenu a:hover {background:#666}
+td#mainmenu a.menuTop {padding-left:3px}
+td#mainmenu a.menuMain {padding-left:3px}
+td#mainmenu a.menuSub {padding-left:9px}
+td#usermenu a {display:block;margin:1px;padding:4px;background:#555}
+td#usermenu a:hover {background:#666}
+td#usermenu a.highlight {background:#666}
+.outer {border:1px solid #777}
+.head {padding:5px;font-weight:bold;background:#555}
+.even {padding:5px;background:#555}
+.odd {padding:5px;background:#666}
+tr.even td {padding:5px;background:#555}
+tr.odd td {padding:5px;background:#666}
+div.errorMsg,div.confirmMsg,div.resultMsg {text-align:center;border:1px solid #777;font-weight:bold;padding:10px;background:#555}
+div.xoopsCode {background:#555;border:1px solid #777;color:#EEE;width:400px;max-height:250px;margin:0.125em;overflow:auto;padding:5px;font:FixedSys,"Courier New",Courier,monospace;text-align:left}
+div.xoopsQuote {background:#555;border:1px solid #777;color:#EEE;width:400px;max-height:250px;margin:0.125em;overflow:auto;padding:5px;font:11px FixedSys,"Courier New",Courier,monospace}
+.comTitle {font-weight:bold;margin-bottom:2px}
+.comText {padding:2px}
+.comUserStat {font-size:10px;color:#555;font-weight:bold;border:1px solid #777;margin:2px;padding:2px;background:#fff}
+.comUserStatCaption {font-weight:normal}
+.comUserStatus {margin-left:2px;margin-top:10px;color:#555;font-weight:bold;font-size:10px}
+.comUserRank {margin:2px}
+.comUserRankText {font-size:10px;font-weight:bold}
+.comUserRankImg {border:0}
+.comUserImg {margin:2px}
+.comDate {font-weight:normal;font-style:italic;font-size:smaller}
+.comDateCaption {font-weight:bold;font-style:normal}
+.clblocks {width:49%;float:left}
+.crblocks {width:49%;float:right}
+a {background:inherit;color:#090;text-decoration:none;font-weight:bold}
+a:hover {background:inherit;color:#0F0;text-decoration:none;font-weight:bold}
+form input, form textarea, form select {background:#555;color:#fff;border:1px solid #777;margin:1px}
+form input:hover, form textarea:hover, form select:hover {background:#444;color:#fff;border:1px solid #777;margin:1px}
+.blockTitle {margin:2px}
+.blockContent {margin:2px;padding:2px;border:1px solid #777;background:#444;color:#fff}
